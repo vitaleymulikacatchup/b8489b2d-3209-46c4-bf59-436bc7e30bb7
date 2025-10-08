@@ -54,7 +54,8 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/design-a-simple-high-contrast-logo-for-p-1759931605789-fa61d0b6.jpg"
-          logoAlt="Peak Logo"
+          logoWidth={250}
+          logoHeight={100}
           columns={[
             { title: "Company", items: [{ label: "About Us", onClick: () => {} }, { label: "Careers", onClick: () => {} }] },
             { title: "Support", items: [{ label: "Contact", onClick: () => {} }, { label: "FAQ", onClick: () => {} }] },
