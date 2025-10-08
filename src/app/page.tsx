@@ -7,7 +7,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
 
-const theme: SiteTheme = { styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: "slide" };
+const theme: SiteTheme = { styleVariant: "brainRot", colorTemplate: 2, textAnimation: "slide" };
 
 export default function Home() {
   return (
